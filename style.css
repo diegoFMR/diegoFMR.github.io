@@ -194,6 +194,17 @@ footer p {
     width: 100%;
   }
 }/* end of query */
+@media (width < 321px){
+  html{
+    width: 30em;
+  }
+}
+
+@media (width = 500px){
+  html{
+    width: 38em !important;
+  }
+}
 @media (width > 480px) and (width < 600px){
   html{
     width: 34em;
